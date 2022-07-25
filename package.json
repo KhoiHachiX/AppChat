@@ -1,0 +1,31 @@
+{
+  "name": "zxc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Tyler Potts <hello@tylerpotts.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/js-api-loader": "^1.14.3",
+    "battery-level": "^3.0.0",
+    "browser-battery": "^2.0.0",
+    "express": "*",
+    "fs": "^0.0.1-security",
+    "google-maps-api-loader": "^1.1.1",
+    "http-server": "^14.1.1",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.2",
+    "navigator": "^1.0.1",
+    "path": "^0.12.7",
+    "socket.io": "*",
+    "socket.io-client": "^4.5.1",
+    "vue-browser-geolocation": "^1.8.0",
+    "vue-router": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}

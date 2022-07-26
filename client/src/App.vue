@@ -37,7 +37,7 @@ setup() {
   data: function(){
     return{
       username:"",
-      socket: io("http://localhost:3000"),
+      socket: io("http://localhost:3005"),
       messages:[],
       users:[],
       showDateTime:null,

@@ -1,9 +1,10 @@
 const express = require('express');
 const app = express();
 const http = require('http').Server(app);
+const cors = require('cors');
 const io = require("socket.io")(http, {
     cors: {
-      origin: "http://localhost:8082",
+      origin: "http://localhost:8080",
       methods: ["GET", "POST"]
     }
   });
@@ -91,8 +92,8 @@ io.on('connection', function(socket) {
 
 
 
-http.listen(process.env.PORT|| 3000,() => {
+http.listen(process.env.PORT|| 3005,() => {
 
-	var port = http.address().port
+	
    console.log("App listening at http://localhost:%s",port)
 });
